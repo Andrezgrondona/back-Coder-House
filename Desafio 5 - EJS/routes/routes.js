@@ -9,7 +9,8 @@ router.get('/productos', (req, res) => {
 })
 
 router.get('/listaproductos', (req, res) => {
-    res.render('productos', { listaProductos });
+    res.render( 'productos', { listaProductos });
+    
 })
 
 router.post('/productos', (req, res) => {
